@@ -26,7 +26,7 @@ function App() {
         className="w-full h-40 top-0 bg-slate-400 bg-opacity-50" />
             <Header />
         </div>
-        <main>
+        <main className="">
             <Hero />
             <About />
             <Skills />

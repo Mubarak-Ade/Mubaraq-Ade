@@ -21,13 +21,13 @@ const Hero = () => {
   }, [character, text, current])
   
   return (
-    <div id='home' className='flex flex-col items-center justify-center min-h-screen space-y-6 text-current bg-img-1'>
+    <div id='home' className='flex flex-col items-center justify-center w-full min-h-screen space-y-6 text-current bg-img-1'>
         {/* <Header /> */}
-        <div className="flex items-center justify-center">
+        <div className="grid md:grid-cols-[240px_repeat(2,1fr)] grid-cols-[0.5fr,3fr]">
             <AnimatePresence>
                 <div className="self-center w-20 p-2 m-2 bg-opacity-25 border-r">
                     <motion.ul className="flex flex-col items-center m-auto text-2xl  justify-evenly h-60">
-                      <motion.li 
+                      <motion.li z
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.8}}
                       ><a href=""><FaGithub className='bg-white rounded-full cursor-pointer' /></a></motion.li>
@@ -46,16 +46,16 @@ const Hero = () => {
                     </motion.ul>
                 </div>
             </AnimatePresence>
-            <div className="content-center w-3/5 space-y-4 text-center">
+            <div className="content-center w-full col-[1/3]  space-y-4 text-center">
                 <AnimatePresence>
-                    <motion.h1 className='self-center gap-3 p-4 text-white space-y-auto text-7xl text-wrap font-ubuntu h-72'>
+                    <motion.h1 className='w-full gap-3 p-4 text-white space-y-auto pt-28 text-6xl font-ubuntu h-72'>
                         {
                           // text[current]
                           character.map((text, index) => (
                             <motion.span
                               initial={{opacity: 0, visibility: 'hidden'}}
                               animate={{ opacity: [1,0,1], visibility: 'visible'}}
-                              // whileView={{display: 'none'}}
+                              // whileView={{display: 'none'}}z
                               transition={{
                                 delay: index * 0.1,
                                 repeat: Infinity,
@@ -108,7 +108,7 @@ const Hero = () => {
                   repeatDelay: 4,
                   delay: 2
                 }}
-                className="flex items-center self-center p-2 bg-blue-900 rounded-full size-fit">
+                className="flex items-center self-center size-80 p-2 order-[initial] md:order-1 justify-self-[initial] bg-blue-900 rounded-full md:size-fit">
                     <motion.img  className='rounded-full size-[30rem]' src="/src/assets/profile2.jpg" alt="" />
                 </motion.div>    
             </AnimatePresence>

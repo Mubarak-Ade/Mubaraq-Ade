@@ -20,7 +20,7 @@ const Header = () => {
     <div
     className={`flex items-center p-4 fixed text-xl w-full top-0 z-10 text-white justify-evenly`}>
         <h1 className='text-5xl font-bold font-sofadiOne'>Mbrk</h1>
-        <motion.ul  className='z-10 flex gap-4 px-10 py-4 text-base font-semibold text-black bg-white ml-60 rounded-3xl'>
+        <motion.ul  className='z-10 md:flex hidden gap-4 px-10 py-4 text-base font-semibold text-black bg-white ml-60 rounded-3xl'>
           <Link to="home" spy={true} activeStyle={{
              fontSize: '20px'
           }} 
