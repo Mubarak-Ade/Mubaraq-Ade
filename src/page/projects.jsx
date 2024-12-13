@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaJs, FaReact } from 'react-icons/fa'
 import { RiTailwindCssFill } from 'react-icons/ri'
-import ProjectInfo from './projectInfo'
+import ProjectInfo from '../component/projectInfo'
 
 const Data = [
   {
     projectName: 'Personal Portfolio Website',
     projectInfo: 'This is my personal portfolio website, designed to showcase my skills, projects, and experience as a frontend developer. The goal was to create a responsive, visually appealing website that highlights my work in a clean and modern way',
-    projectImage: '/src/assets/Quizly.png',
+    projectImage: '/src/assets/Mubaraq-ade-10-07-2024_08_46_AM.png',
     projectStack: function () {
       return (
         <div className="flex gap-2 p-2 bg-opacity-70">
@@ -79,9 +79,9 @@ const Data = [
 
 function Projects() {
   return (
-    <div id='project' className='flex flex-col bg-cover items-center min-h-screen bg-img-3 '>
+    <div id='project' className='flex flex-col bg-cover project-section items-center min-h-screen bg-img-3 '>
         <h1 className='p-4 pt-25 text-5xl text-center text-white font-ubuntu'>My Projects</h1>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-3 card gap-10">
             {
               Data.map((data, index) => 
                 <ProjectInfo name={data.projectName} key={index} description={data.projectInfo} challenges={data.challenges} image={data.projectImage} tech={data.projectStack()} features={data.features()} />

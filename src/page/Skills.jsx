@@ -13,9 +13,9 @@ function Skills() {
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 1}}
-    className='flex flex-col items-center justify-center min-h-screen p-4 bg-center bg-cover bg-gradient-to-tl from-blue-600 via-sky-750 to-sky-800 bg-opacity-70'>
+    className='flex flex-col items-center skill-section justify-center min-h-screen p-4 bg-center bg-cover bg-gradient-to-tl from-blue-600 via-sky-750 to-sky-800 bg-opacity-70'>
         <h1 className='my-28 text-center text-5xl text-white font-ubuntu'>My Skills</h1>
-        <div className="grid grid-cols-2 w-4/5 gap-8">
+        <div className="grid grid-cols-2 card w-4/5 gap-8">
             <div className="text-center flex-col justify-center items-center">
                 <h1 className='mb-5 text-3xl text-white font-sofadiOne font-bold'>Frontend Development</h1>
                 <div className="grid grid-cols-2 place-items-center gap-4">

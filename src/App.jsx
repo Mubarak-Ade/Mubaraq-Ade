@@ -1,12 +1,12 @@
 import React from "react"
-import Hero from "./components/hero"
-import About from "./components/About"
-import Header from "./components/header"
-import Skills from "./components/Skills"
+import Hero from "./page/hero"
+import About from "./page/About"
+import Header from "./page/header"
+import Skills from "./page/Skills"
 import { useScroll, motion } from "framer-motion"
-import Projects from "./components/projects"
-import Contact from "./components/contact"
-import Footer from "./components/footer"
+import Projects from "./page/projects"
+import Contact from "./page/contact"
+import Footer from "./page/footer"
 
 function App() {
 
@@ -26,14 +26,12 @@ function App() {
         className="w-full h-40 top-0 bg-slate-400 bg-opacity-50" />
             <Header />
         </div>
-        <main className="">
             <Hero />
             <About />
             <Skills />
             <Projects />
             <Contact />
             <Footer />
-        </main>
     </>
   )
 }
