@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <div
     className={`flex header items-center p-4 fixed text-xl w-full text-white z-50 justify-around`}>
-        <h1 className='text-5xl font-bold font-sofadiOne'>Mbrk</h1>
+        <h1 className='text-5xl font-bold font-sofadiOne'>AIM</h1>
         <div className={show ? 'navshow' : 'navbar'}>
           <motion.ul  className='z-50 flex gap-4 px-10 py-4 text-lg font-semibold relative text-black bg-white rounded-3xl'>
             <Link to="home" spy={true} activeStyle={{

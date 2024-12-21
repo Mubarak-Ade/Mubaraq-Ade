@@ -5,7 +5,7 @@ import '../App.css'
 
 function Info() {
     let [current, setCurrent] = useState(0)
-    const text = ["Hi i'm Mubarak Ibrahim", "I create beautiful awesome responsive website"]
+    const text = ["Hi i'm Mubaraq Ibrahim", "I create beautiful awesome responsive website"]
     const character = text[current].split("")
     useEffect(() => {
         const intervalId = setInterval(() => {
