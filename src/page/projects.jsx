@@ -7,7 +7,7 @@ const Data = [
   {
     projectName: 'Personal Portfolio Website',
     projectInfo: 'This is my personal portfolio website, designed to showcase my skills, projects, and experience as a frontend developer. The goal was to create a responsive, visually appealing website that highlights my work in a clean and modern way',
-    projectImage: '/src/assets/Mubaraq-ade-10-07-2024_08_46_AM.png',
+    projectImage: '../assets/Mubaraq-ade-10-07-2024_08_46_AM.png',
     projectStack: function () {
       return (
         <div className="flex gap-2 p-2 bg-opacity-70">
@@ -31,7 +31,7 @@ const Data = [
   {
     projectName: 'React To-Do List App',
     projectInfo: 'This is a simple yet powerful task management application built using React. The app allows users to add, edit, and delete tasks, providing an easy way to keep track of daily tasks and goals.',
-    projectImage: '/src/assets/Quizly.png',
+    projectImage: '../assets/Quizly.png',
     projectStack: function () {
       return (
         <div className="flex m-3 gap-2 p-2 bg-opacity-70">
@@ -53,7 +53,7 @@ const Data = [
   {
     projectName: 'E-commerce Product Page',
     projectInfo: 'A frontend e-commerce product page designed to display various products with filter and sorting options. The goal was to provide users with a clean and intuitive shopping experience.',
-    projectImage: '/src/assets/Quizly.png',
+    projectImage: '../assets/Quizly.png',
     projectStack: function () {
       return (
         <div className="flex m-3 gap-2 p-2 bg-opacity-70">
