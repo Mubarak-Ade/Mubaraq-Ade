@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import React from 'react'
 import '../App.css'
+import ProfileImg from '../assets/profile.jpg'
 
 function Image() {
   return (
@@ -24,7 +25,7 @@ function Image() {
                 delay: 2
             }}
             className="hero-Img flex items-center self-center p-2 order-1  bg-blue-900 rounded-full">
-                <motion.img  className='rounded-full w-full h-full' src="/src/assets/profile2.jpg" alt="" />
+                <motion.img  className='rounded-full w-full h-full' src={ProfileImg} alt="" />
             </motion.div>    
         </AnimatePresence>
     </div>

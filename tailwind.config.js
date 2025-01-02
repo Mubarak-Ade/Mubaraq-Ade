@@ -8,9 +8,9 @@ export default {
   theme: {
     extend: {
         backgroundImage: {
-          'img-1': 'url("./src/assets/Wave Line.svg")',
-          'img-2': 'url("./src/assets/sprinkle.svg")',
-          'img-3': 'url("./src/assets/Shiny Overlay.svg")',
+          'img-1': 'url("./assets/wave.svg")',
+          'img-2': 'url("./assets/sprinkle.svg")',
+          'img-3': 'url("./assets/shiny-overlay.svg")',
         },
         fontFamily: {
           'roboto': ['roboto'],
