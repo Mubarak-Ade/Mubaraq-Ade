@@ -18,8 +18,8 @@ function Info() {
   }, [character, text, current])
   return (
     <AnimatePresence>
-        <div className="flex flex-col w-[40rem] justify-self-center justify-center  info text-center">
-            <motion.h1 className=' text-white space-y-auto font-ubuntu h-40'>
+        <div className="flex flex-col items-center gap-10 lg:col-start-1 lg:row-start-1 row-start-3 p-2 md:w-[40rem]">
+            <motion.h1 className='space-y-auto font-ubuntu text-white md:text-5xl text-3xl text-center lg:text-5xl'>
                 {
                 // text[current]
                 character.map((text, index) => (
@@ -44,19 +44,19 @@ function Info() {
                 ))
             }
             </motion.h1>  
-            <p className='p-2 mt-2 text-xl text-white font-roboto' >Passionate about building web experiences that are fast, functional, and user-friendly. Let's work together!</p>
+            <p className='mt-2 p-2 font-roboto text-white md:text-3xl text-center lg:text-xl' >Passionate about building web experiences that are fast, functional, and user-friendly. Let's work together!</p>
             <div className="flex gap-2 m-4">
                 <Link to="project" spy={true} smooth={true} offset={50} duration={500}>
                     <motion.button 
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.8}}
-                    className='text-base bg-sky-900 p-3  text-white rounded-2xl m-2 hover:bg-sky-800'>View My Work</motion.button>
+                    className='bg-sky-900 hover:bg-sky-800 m-2 p-3 rounded-xl text-base text-white'>View My Work</motion.button>
                 </Link>
                 <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
                     <motion.button 
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.8}}
-                    className='text-base bg-sky-900 px-2 py-3  text-white rounded-2xl m-2 hover:bg-sky-800'>Hire Me</motion.button>
+                    className='bg-sky-900 hover:bg-sky-800 m-2 px-2 py-3 rounded-xl text-base text-white'>Hire Me</motion.button>
                 </Link>
             </div>
         </div>

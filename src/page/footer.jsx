@@ -11,7 +11,7 @@ function Footer() {
 	const whatsappLink = `https://wa.me/${number}?text=${encodeURIComponent(message)}`
 	return (
 		<div className='p-2 h-[25rem] bg-gradient-to-tr flex flex-col items-center justify-around from-blue-700 to-indigo-800'>
-			<h1 className='font-sofadiOne text-6xl text-center p-4 text-white'>Mbrk</h1>
+			<h1 className='font-sofadiOne text-6xl text-center p-4 text-white'>AIM</h1>
 			<motion.ul className='z-10 flex gap-8 text-lg font-semibold text-white rounded-3xl'>
 				<Link to="about" spy={true} activeStyle={{
 					fontSize: '20px'

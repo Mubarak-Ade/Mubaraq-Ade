@@ -7,25 +7,25 @@ function About() {
     <div id='about' className='flex flex-col items-center justify-center min-h-screen p-4 bg-center bg-cover bg-gradient-to-tr from-indigo-600 via-blue-950 to-sky-800 bg-opacity-70'>
         <h1 className='text-5xl text-center text-white font-ubuntu'>About Me</h1>
         <h1 className='text-xl text-center text-gray-300 font-roboto'>My Introduction</h1>
-        <div className="grid grid-cols-[repeat(2,1fr)] about-section place-items-center mt-20 " >
+        <div className="grid lg:grid-cols-[repeat(2,1fr)] grid-cols-1  gap-10 place-items-center mt-20 " >
             <div className="flex items-center justify-center img w-1/2">
-                <img src="/src/assets/profile1.jpg" alt="profile.jpg" className='size-72 rounded-3xl' />
+                <img src="../assets/profile-pic/profile1.jpg" alt="profile.jpg" className='lg:size-72 rounded-3xl' />
             </div>
             <div className="w-full text-xl text-white font-roboto">
-                <div className="flex items-center p-4 text-center justify-evenly">
-                    <div className="flex flex-col tag items-center justify-center gap-4 rounded-full bg-sky-700 bg-opacity-40 w-36 h-36">
+                <div className="flex items-center p-2 text-center gap-1 justify-evenly">
+                    <div className="flex flex-col items-center justify-center lg:gap-4 rounded-full bg-sky-700 bg-opacity-40 lg:w-36 lg:h-36 md:size-32 w-28 h-28">
                         <FaAward />
-                        <h1 className='font-mono text-xl font-bold'>Experience</h1>
+                        <h1 className='font-mono lg:text-xl text-sm font-bold'>Experience</h1>
                         <h2 className='font-sans text-xs text-gray-300 font-extralight'>2 years coding</h2>
                     </div>
-                    <div className="flex flex-col tag items-center justify-center gap-4 rounded-full bg-sky-700 bg-opacity-40 w-36 h-36">
+                    <div className="flex flex-col items-center justify-center lg:gap-4 rounded-full bg-sky-700 bg-opacity-40 lg:w-36 lg:h-36 md:size-32 w-28 h-28">
                         <FaBriefcase />
-                        <h1 className='font-mono text-xl font-bold'>Completed</h1>
+                        <h1 className='font-mono lg:text-xl text-lg font-bold'>Completed</h1>
                         <h2 className='font-sans text-xs text-gray-300 font-extralight'>10 Projects</h2>
                     </div>
-                    <div className="flex flex-col tag items-center justify-center gap-4 rounded-full bg-sky-700 bg-opacity-40 w-36 h-36">
+                    <div className="flex flex-col items-center justify-center lg:gap-4 rounded-full bg-sky-700 bg-opacity-40 lg:w-36 lg:h-36 md:size-32 w-28 h-28">
                         <BiSupport />
-                        <h1 className='font-mono text-xl font-bold'>Support</h1>
+                        <h1 className='font-mono lg:text-xl text-lg font-bold'>Support</h1>
                         <h2 className='font-sans text-xs text-gray-300 font-extralight'>Online 24/7</h2>
                     </div>
                 </div>

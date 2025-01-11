@@ -24,7 +24,8 @@ function Image() {
                 repeatDelay: 4,
                 delay: 2
             }}
-            className="hero-Img flex items-center self-center p-2 order-1  bg-blue-900 rounded-full">
+
+            className="flex items-center order-1 lg:col-start- row-start-1 bg-blue-900 rounded-full size-60 md:size-[28rem] lg:size-[20rem] self-center">
                 <motion.img  className='rounded-full w-full h-full' src={ProfileImg} alt="" />
             </motion.div>    
         </AnimatePresence>

@@ -12,7 +12,7 @@ import '../App.css'
 const Hero = () => {
   
   return (
-    <div id='home' className=' hero-section items-center justify-center min-h-screen space-y-6 text-current bg-img-1'>
+    <div id='home' className='justify-center items-center place-items-center place-content-center gap-10 grid grid-cols-1 md:grid-cols-[1fr] lg:grid-cols-2 bg-img-1 pt-40 w-full min-h-screen text-current'>
         {/* <Header /> */}
             <SocialIcon />
             <Info />

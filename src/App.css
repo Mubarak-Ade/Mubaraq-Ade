@@ -25,7 +25,7 @@
     src: url('.assets/fonts/PlayfairDisplay-Italic.ttf');
 }
 
-.hero-section {
+/* .hero-section {
     display: grid;
     grid-template-columns: 200px repeat(2, 1fr);
     column-gap: 10rem;
@@ -180,9 +180,9 @@
 
 @media screen and (min-width: 350px) {
 
-    /* .header .navShow {
+    .header .navShow {
         display: block;
-    } */
+    }
 
     .hero-section {
         column-gap: 1rem;
@@ -209,4 +209,5 @@
     .contact-section .form input,.contact-section .form textarea {
         width: 18rem;
     }
-}
+} 
+*/

@@ -9,9 +9,9 @@ function SocialIcon() {
 	const message = "Hello! i want to connect to you"
 	const whatsappLink = `https://wa.me/${number}?text=${encodeURIComponent(message)}`
 	return (
-		<div>
+		<div className="border-x-2 lg:col-span-2 lg:row-start-2 lg:m-4 divide-solid divide-black">
 			<AnimatePresence>
-				<motion.ul className="flex flex-col items-center m-auto text-2xl  justify-evenly h-60">
+				<motion.ul className="flex justify-evenly items-center md:gap-10 gap-5 m-auto p-5 text-3xl md:text-5xl lg:text-2xl">
 					<motion.li z
 						whileHover={{ scale: 1.1 }}
 						whileTap={{ scale: 0.8 }}
@@ -23,11 +23,11 @@ function SocialIcon() {
 					<motion.li
 						whileHover={{ scale: 1.1 }}
 						whileTap={{ scale: 0.8 }}
-					><a href="https://www.facebook.com/adeshinamubarak.ibrahim" target='_blank'><FaFacebookF className="text-blue-800 bg-white rounded-full cursor-pointer" /></a></motion.li>
+					><a href="https://www.facebook.com/adeshinamubarak.ibrahim" target='_blank'><FaFacebookF className="bg-white rounded-full text-blue-800 cursor-pointer" /></a></motion.li>
 					<motion.li
 						whileHover={{ scale: 1.1 }}
 						whileTap={{ scale: 0.8 }}
-					><a href="https://x.com/Mubaraq_ade" target='_blank'><FaXTwitter className='cursor-pointer text-black' /></a></motion.li>
+					><a href="https://x.com/Mubaraq_ade" target='_blank'><FaXTwitter className='text-black cursor-pointer' /></a></motion.li>
 				</motion.ul>
 			</AnimatePresence>
 		</div>
