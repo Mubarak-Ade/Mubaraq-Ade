@@ -17,12 +17,12 @@
 
 @font-face {
     font-family: 'playfairDisplay';
-    src: url('.assets/fonts/PlayfairDisplay-VariableFont_wght.ttf');
+    src: url('./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'playfairItalic';
-    src: url('.assets/fonts/PlayfairDisplay-Italic.ttf');
+    src: url('./assets/fonts/PlayfairDisplay-Italic.ttf');
 }
 
 /* .hero-section {
