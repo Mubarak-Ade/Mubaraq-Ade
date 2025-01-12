@@ -5,7 +5,7 @@ export const Data = [
     {
       projectName: 'Personal Portfolio Website',
       projectInfo: 'This is my personal portfolio website, designed to showcase my skills, projects, and experience as a frontend developer. The goal was to create a responsive, visually appealing website that highlights my work in a clean and modern way',
-      projectImage: './assets/project_img/portfolio.png',
+      projectImage: './assets/project_img/portfolio.png', // Ensure this path is correct
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 bg-opacity-70">
@@ -29,7 +29,7 @@ export const Data = [
     {
       projectName: 'Quiz Website',
       projectInfo: 'This is my personal portfolio website, designed to showcase my skills, projects, and experience as a frontend developer. The goal was to create a responsive, visually appealing website that highlights my work in a clean and modern way',
-      projectImage: './assets/project_img/quizly.png',
+      projectImage: './assets/project_img/quizly.png', // Ensure this path is correct
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 bg-opacity-70">
@@ -53,10 +53,10 @@ export const Data = [
     {
       projectName: 'React To-Do List App',
       projectInfo: 'This is a simple yet powerful task management application built using React. The app allows users to add, edit, and delete tasks, providing an easy way to keep track of daily tasks and goals.',
-      projectImage: './assets/project_img/todo-img.png',
+      projectImage: './assets/project_img/todo-img.png', // Ensure this path is correct
       projectStack: function () {
         return (
-          <div className="flex m-3 gap-2 p-2 bg-opacity-70">
+          <div className="flex gap-2 p-2 m-3 bg-opacity-70">
             <FaReact color='#0284c7 ' size={25} />           
             <RiTailwindCssFill color='#0891b2' size={25}  />
             <FaJs className='text-3xl text-orange-600'/>
@@ -75,10 +75,10 @@ export const Data = [
     {
       projectName: 'E-commerce Product Page',
       projectInfo: 'A frontend e-commerce product page designed to display various products with filter and sorting options. The goal was to provide users with a clean and intuitive shopping experience.',
-      projectImage: './assets/project_img/quizly.png',
+      projectImage: './assets/project_img/ecommerce.png', // Corrected path for E-commerce Product Page
       projectStack: function () {
         return (
-          <div className="flex m-3 gap-2 p-2 bg-opacity-70">
+          <div className="flex gap-2 p-2 m-3 bg-opacity-70">
             <FaReact color='#0284c7 ' size={25} />           
             <RiTailwindCssFill color='#0891b2' size={25}  />
             <FaJs className='text-3xl text-orange-600'/>
@@ -100,10 +100,10 @@ export const Data = [
     {
       projectName: 'Weather App',
       projectInfo: 'A frontend e-commerce product page designed to display various products with filter and sorting options. The goal was to provide users with a clean and intuitive shopping experience.',
-      projectImage: './assets/project_img/weather-sphere.png',
+      projectImage: './assets/project_img/weather-sphere.png', // Ensure this path is correct
       projectStack: function () {
         return (
-          <div className="flex m-3 gap-2 p-2 bg-opacity-70">
+          <div className="flex gap-2 p-2 m-3 bg-opacity-70">
             <FaReact color='#0284c7 ' size={25} />           
             <RiTailwindCssFill color='#0891b2' size={25}  />
             <FaJs className='text-3xl text-orange-600'/>
@@ -122,4 +122,4 @@ export const Data = [
       },
       challenges: 'One of the main challenges was implementing an intuitive filtering and sorting system while ensuring the design remained responsive and user-friendly across all devices.'
     },
-  ]
+]

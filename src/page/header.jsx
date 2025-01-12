@@ -22,7 +22,7 @@ const Header = () => {
     <div
       className="z-50 fixed flex md:justify-between lg:justify-around justify-between  items-center p-4 w-full text-white text-xl">
       <div className="flex items-center justify-between w-[65%] md:justify-between lg:justify-start lg:items-center gap-5 md:w-[55%] lg:w-fit">
-        <img src="../assets/logos/logo3.png" className="rounded-full size-16" alt="" />
+        <img src="../assets/logos/logo-one.png" className="rounded-full size-16" alt="" />
         <h1 className='font-bold font-ubuntu text-5xl'>AIM</h1>
       </div>
       <div className={`bottom-0 left-0 z-[999px] lg:static fixed bg-white lg:bg-transparent px-10 py-4 rounded w-full md:w-full lg:w-fit h-72 md:h-[30rem] lg:h-full font-semibold text-black text-xl md:text-3xl lg:text-white lg:text-xl ${show ? 'md:block block' : 'md:hidden hidden lg:block'}`}>
