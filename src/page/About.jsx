@@ -9,7 +9,7 @@ function About() {
         <h1 className='text-xl text-center text-gray-300 font-roboto'>My Introduction</h1>
         <div className="grid lg:grid-cols-[repeat(2,1fr)] grid-cols-1  gap-10 place-items-center mt-20 " >
             <div className="flex items-center justify-center img w-1/2">
-                <img src="../assets/profile-pic/profile1.jpg" alt="profile.jpg" className='lg:size-72 rounded-3xl' />
+                <img src="../assets/profile-pic/profile-one.jpg" alt="profile.jpg" className='lg:size-72 rounded-3xl' />
             </div>
             <div className="w-full text-xl text-white font-roboto">
                 <div className="flex items-center p-2 text-center gap-1 justify-evenly">
