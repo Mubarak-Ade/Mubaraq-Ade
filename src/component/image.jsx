@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import React from 'react'
 import '../App.css'
-import ProfileImg from '../assets/profile-pic/profile.jpg'
+import ProfileImg from '../assets/profile_pic/profile.jpg'
 
 function Image() {
   return (
