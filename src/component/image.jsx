@@ -3,6 +3,8 @@ import React from 'react'
 import '../App.css'
 import ProfileImg from '../assets/profile_pic/profile.jpg'
 
+console.log(ProfileImg)
+
 function Image() {
   return (
     <div>

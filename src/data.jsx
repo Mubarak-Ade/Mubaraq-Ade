@@ -1,16 +1,18 @@
 import { FaJs, FaReact } from 'react-icons/fa'
 import { RiTailwindCssFill } from 'react-icons/ri'
-import Portfolio from './assets/project_img/portfolio.png'
-import Quizly from './assets/project_img/quizly.png'
-import Todo from './assets/project_img/todo-img.png'
-// import Ecommerce from './assets/project_img/ecommerce.png'
-import Weather from './assets/project_img/weather-sphere.png'
+import Portfolio from './assets/project-img/portfolio.png'
+import Quizly from './assets/project-img/quizly.png'
+import Todo from './assets/project-img/todo-img.png'
+// import Ecommerce from './assets/project-img/ecommerce.png'
+import Weather from './assets/project-img/weather-sphere.png'
+
+console.log(Portfolio)
 
 export const Data = [
     {
       projectName: 'Personal Portfolio Website',
       projectInfo: 'This is my personal portfolio website, designed to showcase my skills, projects, and experience as a frontend developer. The goal was to create a responsive, visually appealing website that highlights my work in a clean and modern way',
-      projectImage: {Portfolio},
+      projectImage: Portfolio,
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 bg-opacity-70">
@@ -34,7 +36,7 @@ export const Data = [
     {
       projectName: 'Quiz Website',
       projectInfo: 'This is my personal portfolio website, designed to showcase my skills, projects, and experience as a frontend developer. The goal was to create a responsive, visually appealing website that highlights my work in a clean and modern way',
-      projectImage: {Quizly},
+      projectImage: Quizly,
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 bg-opacity-70">
@@ -58,7 +60,7 @@ export const Data = [
     {
       projectName: 'React To-Do List App',
       projectInfo: 'This is a simple yet powerful task management application built using React. The app allows users to add, edit, and delete tasks, providing an easy way to keep track of daily tasks and goals.',
-      projectImage: {Todo},
+      projectImage: Todo,
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 m-3 bg-opacity-70">
@@ -80,7 +82,7 @@ export const Data = [
     {
       projectName: 'E-commerce Product Page',
       projectInfo: 'A frontend e-commerce product page designed to display various products with filter and sorting options. The goal was to provide users with a clean and intuitive shopping experience.',
-      projectImage: {Quizly}, // Corrected path for E-commerce Product Page
+      projectImage: Quizly, // Corrected path for E-commerce Product Page
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 m-3 bg-opacity-70">
@@ -105,7 +107,7 @@ export const Data = [
     {
       projectName: 'Weather App',
       projectInfo: 'A frontend e-commerce product page designed to display various products with filter and sorting options. The goal was to provide users with a clean and intuitive shopping experience.',
-      projectImage: {Weather},
+      projectImage: Weather,
       projectStack: function () {
         return (
           <div className="flex gap-2 p-2 m-3 bg-opacity-70">
