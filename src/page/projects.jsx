@@ -9,7 +9,10 @@ function Projects() {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 card gap-10">
             {
               Data.map((data, index) => 
-                <ProjectInfo name={data.projectName} key={index} description={data.projectInfo} challenges={data.challenges} image={data.projectImage} tech={data.projectStack()} features={data.features()} />
+                <ProjectInfo name={data.projectName} key={index} 
+                  description={data.projectInfo} challenges={data.challenges} 
+                  image={data.projectImage} tech={data.projectStack()} 
+                  features={data.features()} github={data.githubLink} website={data.websiteLink}/>
               )
             }
         </div>

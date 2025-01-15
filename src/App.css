@@ -25,7 +25,40 @@
     src: url('./assets/fonts/PlayfairDisplay-Italic.ttf');
 }
 
-/* .hero-section {
+/* Project Card Overlay Scrollbar */
+.card::-webkit-scrollbar {
+    width: 5px;
+}
+
+.card::-webkit-scrollbar-track {
+    background: rgba(148, 163, 184, 0.1);
+    border-radius: 10px;
+    margin: 16px;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background: #0284c7;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card::-webkit-scrollbar-thumb:hover {
+    background: #0369a1;
+}
+
+/* Hide scrollbar buttons */
+.card::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Firefox scrollbar styling */
+.card {
+    scrollbar-width: thin;
+    scrollbar-color: #0284c7 rgba(148, 163, 184, 0.1);
+}
+
+/* .hero-section
+ {
     display: grid;
     grid-template-columns: 200px repeat(2, 1fr);
     column-gap: 10rem;
